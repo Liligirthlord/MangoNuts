@@ -1,4 +1,4 @@
-# MangoNuts 
+# MangoNuts 🥭🍌
 
 ![untitled](https://github.com/user-attachments/assets/b34c8ea7-fcb7-4fb2-b072-2415e356c3eb)
 
