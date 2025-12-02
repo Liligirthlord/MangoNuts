@@ -50,10 +50,11 @@ Integrated Waybar modules
 
 ## 🚀 Installation
 1. Clone the repo
-git clone https://github.com/yourusername/MangoNuts.git ~/.config/MangoNuts
+git clone https://github.com/Liligirthlord/MangoNuts.git
+~/.config/MangoNuts
 
-2. Symlink configs
-stow -t ~/.config mangowc waybar fuzzel alacritty yazi dunst matugen hellpaper
+3. Symlink configs
+stow -t ~/.config mango waybar fuzzel alacritty yazi dunst matugen hellpaper
 
 
 Or manually copy files if you prefer.
