@@ -2,7 +2,8 @@
 
 ![untitled](https://github.com/user-attachments/assets/b34c8ea7-fcb7-4fb2-b072-2415e356c3eb)
 
-A cohesive, visually consistent Wayland-based workflow powered by MangoWC, themed with Matugen, and sprinkled with tools that just work. Welcome to the MangoNuts experience.
+A cohesive, visually consistent Wayland-based workflow powered by MangoWC, themed with Matugen, and sprinkled with tools that just work. 
+Welcome to the MangoNuts experience.
 
 ## 🍊 Overview
 
