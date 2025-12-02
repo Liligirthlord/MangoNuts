@@ -48,6 +48,10 @@ Focus rules, keybinds, and layouts all fine-tuned
 
 Integrated Waybar modules
 
+### 🖐️ Gestures
+
+You can navigate windows and toggle overview easily with just your fingers
+
 ## 🚀 Installation
 1. Clone the repo
 git clone https://github.com/Liligirthlord/MangoNuts.git
