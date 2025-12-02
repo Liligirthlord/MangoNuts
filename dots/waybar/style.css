@@ -1,0 +1,122 @@
+@import "colors.css";
+window#waybar {
+  background-color: @on_primary;
+  border-radius: 12;
+
+}
+
+#tags {
+  margin: 0px;
+  margin-left: 0px;
+  margin-right: 2px;
+  padding: 0px;
+  background-color: transparent;
+  color: @on_primary;
+}
+
+#tags button { /* hide empty tags */
+  min-width: 0;
+  min-height: 0;
+  margin: 0px;
+  margin-left: -2px;
+  padding: 0px; 
+  background-color: transparent;
+  border-radius: 4px;
+  font-family: "FiraCode Nerd Font Mono", auto, auto;
+  font-size: 0;
+  font-weight: bold;
+}
+
+#tags button.occupied,
+#tags button.focused,
+#tags button.urgent { /* non-empty tags shared */
+  padding-left: 24px;
+  padding-right: 23px; /* looks better if right is one pixel less than right in most cases */
+  margin-left: 1px;
+  font-size: 16px;
+}
+
+#tags button.occupied {  
+  background-color: @on_primary;
+  color: @primary;
+}
+#tags button.focused {
+  background-color: @primary;
+  color: @on_primary;
+}
+#tags button.urgent {
+  background-color: @on_primary;
+  color: @on_primary;
+}
+
+#window {
+  margin: 0px;
+  margin-left: 6px;
+  margin-right: 4px;
+  padding: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-family: "FiraCode Nerd Font", auto, auto;
+  font-size: 14px;
+  background-color: transparent;
+  color: @primary;
+}
+
+#waybar.empty #window { /* no active window makes window title disappear */
+  background-color: transparent;
+  background: none;
+}
+
+#clock {
+  margin: 0px;
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 0px;
+  padding-left: 2px;
+  padding-right: 2px;
+  font-family: "FiraCode Nerd Font Mono", auto, auto;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: transparent;
+  color: @primary;
+}
+
+#custom-appmenu,
+#custom-utilities {
+  margin: 0px; 
+  padding: 0px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+  font-family: "FiraCode Nerd Font Mono", auto, auto;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: @on_primary;
+  color: @primary;
+}
+
+#custom-appmenu {
+  margin-right: 4px;
+}
+
+#custom-utilities {
+  margin-left: 4px;
+}
+
+#battery {
+  font-size: 16px;
+  color: @primary
+}
+
+/* Tooltips */
+
+tooltip {
+  background-color: @background;
+  border-radius: 4px;
+}
+
+tooltip label {
+  color: @tertiary;
+  font-family: "FiraCode Nerd Font Mono", auto, auto;
+  font-size: 14px;
+}

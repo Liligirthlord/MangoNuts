@@ -1,0 +1,66 @@
+{
+  "layer": "top",
+
+  "position": "top",
+
+  "height": 25,
+  "width": 0,
+
+
+  "spacing": 0,
+
+  "modules-left": ["custom/appmenu", "dwl/tags", "dwl/window"],
+  "modules-center": ["clock"],
+  "modules-right": ["battery", "custom/utilities"],
+
+
+
+  "dwl/tags": {},
+
+  "dwl/window": {
+    "format": "{title}",
+    "rewrite": {
+      "(.*)(- Brave)(.*)": " $1",
+      "(.*)(- Thunar)(.*)": " $1",
+      "(.*)(vim)(.*)": " $0",
+      "(.*)(Tauon)(.*)": " Tauon",
+      "(.*)(ONLYOFFICE)(.*)": " $1",
+      "(gparu)": " GParu", 
+      "(Notes)": " Notes"
+    },
+    "on-click": "",
+    "tooltip": false
+  },
+
+   "battery": {
+        "format": "{capacity}% {icon}",
+            "format-charging": "{capacity}% 󰂄",
+            "format-plugged": "{capacity}% 󰂄 ",
+            "format-alt": "{time} {icon}",
+            "format-icons": [
+                "󰁻",
+            "󰁼",
+            "󰁾",
+            "󰂀",
+            "󰂂",
+            "󰁹"
+            ]
+	},
+
+  "clock": {
+    "format": "{:%H:%M}",
+    "tooltip-format": " {:%Y %B %d}\n\n{calendar}"
+  },
+
+  "custom/appmenu": {
+    "format": "󰀻",
+    "tooltip-format": "Applications Menu",
+    "on-click": "fuzzel"
+  },
+
+  "custom/utilities": {
+    "format": "",
+    "tooltip-format": "Utility Menu",
+    "on-click": "bash ~/.config/fuzzel/system-menu.sh"
+  }
+}
