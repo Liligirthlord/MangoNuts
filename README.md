@@ -53,16 +53,13 @@ Integrated Waybar modules
 git clone https://github.com/Liligirthlord/MangoNuts.git
 ~/.config/MangoNuts
 
-3. Symlink configs
-stow -t ~/.config mango waybar fuzzel alacritty yazi dunst matugen hellpaper
-
+3. Symlink configs with (stow eg.)
 
 Or manually copy files if you prefer.
 
 3. Fire up the wallpaper script (./walset.sh)
 
-4. Choose a wallpaper on your PC,
-5.  get the colorscheme immediately 
+4. Choose a wallpaper on your PC, get the colorscheme immediately 
 
 📸 Screenshots
 
