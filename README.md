@@ -5,7 +5,7 @@
 A cohesive, visually consistent Wayland-based workflow powered by MangoWC, themed with Matugen, and sprinkled with tools that just work. 
 Welcome to the MangoNuts experience.
 
-## 🍊 Overview
+## Overview
 
 MangoNuts is my personal dotfiles setup built for my study laptop, it focuses on simplicity with alot of functionality:
 
