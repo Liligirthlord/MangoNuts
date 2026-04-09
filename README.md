@@ -1,4 +1,4 @@
-# MangoNuts 🥭🥥🍌
+# MangoNuts 🥭
 
 ![untitled](https://github.com/user-attachments/assets/b34c8ea7-fcb7-4fb2-b072-2415e356c3eb)
 
@@ -29,14 +29,14 @@ Hellpaper – Automatic wallpaper generation for adaptive color schemes
 
 Everything is configured to work together out of the box, with consistent theming thanks to Matugen + Hellpaper.
 
-## 🧩 Features
+## Features
 ### 🎨 Dynamic & Unified Theming
 
 Matugen generates color palettes from your wallpaper
 
 Hellpaper sets wallpapers and syncs colors automatically
 
-### ⚡ Lightweight & Fast
+### Lightweight & Fast
 
 TUI-first tooling for speed
 
@@ -52,7 +52,7 @@ Integrated Waybar modules
 
 You can navigate windows and toggle overview easily with just your fingers
 
-## 🚀 Installation
+## Installation
 1. Clone the repo
 git clone https://github.com/Liligirthlord/MangoNuts.git
 ~/.config/MangoNuts
